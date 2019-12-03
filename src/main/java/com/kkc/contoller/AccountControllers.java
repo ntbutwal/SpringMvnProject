@@ -22,6 +22,7 @@ public class AccountControllers {
 	public ModelAndView sendData() {
 		DtoAccount dto = new DtoAccount();
 		ModelAndView mv = new ModelAndView("AccountFrom");
+		System.out.println("good job");
 		mv.addObject("kkc", dto);
 		return mv;
 
